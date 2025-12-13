@@ -35,7 +35,7 @@ main .area {
   height: 175px;
   border-bottom: 3px solid var(--border);
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   padding-inline-start: 15px;
   position: relative;
@@ -43,7 +43,7 @@ main .area {
   transition: all linear 0.2s;
 }
 main .area h1 {
-  font-size: 8vw;
+  font-size: clamp(70px, 8vw, 10vw);
   text-transform: uppercase;
   font-weight: 700;
   position: relative;
@@ -51,13 +51,14 @@ main .area h1 {
   text-shadow: -2px -2px 2px var(--bg-light);
   color: var(--text);
   z-index: 5;
-  pointer-events: visible;
-  mix-blend-mode: soft-light;
+  pointer-events: none;
+  mix-blend-mode: overlay;
+  opacity: 0.7;
 }
 main .area img {
   position: absolute;
-  height: 200px;
-  width: 200px;
+  height: 250px;
+  width: 250px;
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: center;
@@ -76,8 +77,8 @@ main .area img {
   top: -2px;
   left: -2px;
   color: var(--bg-light);
-  -webkit-text-stroke: 3px var(--text-muted);
-  text-shadow: -1px -1px 5px var(--text-muted);
+  -webkit-text-stroke: 3px var(--text);
+  text-shadow: -1px -1px 5px var(--text);
 }
 .area:nth-child(1) h1::before {
   content: "Spring";
