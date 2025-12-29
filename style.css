@@ -26,10 +26,14 @@ body {
 
 body {
   background-color: var(--bg);
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
 }
 
 main {
   height: 100vh;
+  overflow: hidden;
 }
 main .area {
   height: 175px;
@@ -53,7 +57,7 @@ main .area h1 {
   z-index: 5;
   pointer-events: none;
   mix-blend-mode: overlay;
-  opacity: 0.7;
+  opacity: 0.8;
 }
 main .area img {
   position: absolute;

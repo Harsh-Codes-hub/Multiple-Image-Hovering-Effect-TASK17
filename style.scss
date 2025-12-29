@@ -27,10 +27,12 @@ body {
 
 body {
   background-color: var(--bg);
+  user-select: none;
 }
 
 main {
   height: 100vh;
+  overflow: hidden;
   .area {
     height: 175px;
     border-bottom: 3px solid var(--border);
@@ -53,7 +55,7 @@ main {
       z-index: 5;
       pointer-events: none;
       mix-blend-mode: overlay;
-      opacity: 0.7;
+      opacity: 0.8;
     }
 
     img {
