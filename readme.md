@@ -59,11 +59,11 @@ Multiple-Image-Hovering-Effect-TASK17/
 
 1. **Clone the repository:**
    ```bash
-git clone https://github.com/Harsh-Codes-hub/Multiple-Image-Hovering-Effect-TASK17.git
+   git clone https://github.com/Harsh-Codes-hub/Multiple-Image-Hovering-Effect-TASK17.git
    ```
 2. **Navigate to the project directory:**
    ```bash
-cd Multiple-Image-Hovering-Effect-TASK17
+   cd Multiple-Image-Hovering-Effect-TASK17
    ```
 3. _Open the project in your browser_
    ```
